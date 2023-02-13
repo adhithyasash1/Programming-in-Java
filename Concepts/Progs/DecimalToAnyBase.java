@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-/** @author Varun Upadhyay (https://github.com/varunu28) */
+
 
 // Driver Program
 public class DecimalToAnyBase {
