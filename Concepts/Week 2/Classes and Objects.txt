@@ -1,0 +1,88 @@
+// Defining class
+
+public class Date 
+{
+	private int day, month, year;
+	...
+}
+
+// Creating objects 
+
+public void UseDate() 
+{
+	Date d;
+	d = new Date();
+	...
+}
+
+public class Date 
+{
+	private int day, month, year;
+	
+	public void setDate(int d, int m, int y)
+	{
+	this.day = d;
+	this.month = m;
+	this.year = y;
+	}
+}
+
+public class Date 
+{
+...
+	public int getDay()
+	{
+	return(day);
+	}
+	
+	public int getMonth()
+	{
+	return(month);
+	}
+	
+	public int getYear()
+	{
+	return(year);
+	}
+}
+
+
+//Initializing objects
+
+public class Date 
+{
+	private int day, month, year;
+	
+	public Date(int d, int m, int y)
+	{
+	day = d;
+	month = m;
+	year = y;
+	}
+}
+
+d = new Date(13,8,2015);
+
+like python you pass your arguments,
+new = creates a new object
+Date = contructor of the specific type of object
+
+another way, 
+
+public class Date 
+{
+	private int day, month, year;
+
+	public Date(int d, int m, int y)
+	{
+	day = d;
+	month = m;
+	year = y;
+	}
+	
+	public Date(int d, int m)
+	{
+	this(d,m,2021);
+	}
+}
+
