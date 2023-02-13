@@ -12,7 +12,6 @@ package DataStructures.Heaps;
  * <p>All heap-related operations (inserting or deleting an element, extracting the min or max) are
  * performed in O(log n) time.
  *
- * @author Nicolas Renard
  */
 public interface Heap {
 
