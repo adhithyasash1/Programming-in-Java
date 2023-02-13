@@ -2,7 +2,6 @@ package DataStructures.Stacks;
 
 import java.util.NoSuchElementException;
 
-/** @author Varun Upadhyay (https://github.com/varunu28) */
 
 // An implementation of a Stack using a Linked List
 
