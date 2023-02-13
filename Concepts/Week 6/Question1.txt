@@ -1,0 +1,23 @@
+Write Java code as instructed.
+
+• Define a generic class Student that has the following members.
+  – String name, int backlogs, double cgpa and String        status as private instance variables
+  – Constructor to initialize String name, int backlogs      and double cgpa
+  – Accessor method to access backlogs
+  – Accessor method to access cgpa
+  – Mutator method to update status
+  – Override method toString() to return the name and status of the Student as a single concatenated string(seperated by comma(,))
+
+• Define class CollectionTest that has the following members.
+  – Method public static boolean property(Student s) that returns true if a student has more than 5 backlogs. Otherwise, it returns false.
+
+  – Method public static ArrayList<Student> getUpdatedStuList(ArrayList<Student> sList) that has the following functionality.
+        ∗ Iterates over sList and for each student, invoke method property().
+        ∗ If property() returns true, then remove that student from sList.
+        ∗ Else, if obj.getCgpa() >= 9.0 and obj.getBacklogs() == 0 then set status of that student as "Promoted with vertical mobility"
+        ∗ Else, if obj.getCgpa() <= 9.0 and obj.getBacklogs() >= 1 then set status of student as "Promoted without vertical mobility"
+
+  – main method has the following functionality
+        ∗ It creates an object list of ArrayList<Student>
+        ∗ Add 4 students objects to the list
+        ∗ Invokes the getUpdatedStuList(ArrayList<Student> sList) and display the list returned by it.
