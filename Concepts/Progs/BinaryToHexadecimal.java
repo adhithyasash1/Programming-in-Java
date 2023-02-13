@@ -4,8 +4,6 @@ import java.util.*;
 
 /**
  * Converts any Binary Number to a Hexadecimal Number
- *
- * @author Nishita Aggarwal
  */
 public class BinaryToHexadecimal {
 
