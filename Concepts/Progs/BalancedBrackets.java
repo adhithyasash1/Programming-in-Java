@@ -10,9 +10,6 @@ import java.util.Stack;
  * properly nested but "[(()]" is not. The function called is_balanced takes as input a string S
  * which is a sequence of brackets and returns true if S is nested and false otherwise.
  *
- * @author akshay sharma
- * @author <a href="https://github.com/khalil2535">khalil2535<a>
- * @author shellhub
  */
 class BalancedBrackets {
 
