@@ -1,6 +1,5 @@
 package Conversions;
 
-/** @author Varun Upadhyay (https://github.com/varunu28) */
 
 // Driver program
 public class AnyBaseToDecimal {
