@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 /**
  * Converts any Binary number to an Octal Number
- *
- * @author Zachary Jones
  */
 public class BinaryToOctal {
 
