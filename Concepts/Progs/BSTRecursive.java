@@ -11,7 +11,6 @@
  * <p>I have made public functions as methods and to actually implement recursive approach I have
  * used private methods
  *
- * @author [Lakhan Nad](https://github.com/Lakhan-Nad)
  */
 public class BSTRecursive {
   /** only data member is root of BST */
