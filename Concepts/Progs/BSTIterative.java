@@ -7,7 +7,6 @@
  * three properties: left child is less than root node, right child is grater than root node, both
  * left and right childs must themselves be a BST.
  *
- * @author [Lakhan Nad](https://github.com/Lakhan-Nad)
  */
 import java.util.Stack;
 
