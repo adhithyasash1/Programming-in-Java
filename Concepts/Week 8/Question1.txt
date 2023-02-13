@@ -1,0 +1,33 @@
+Employee e1 does a set of projects.
+Employee e2 also does all the projects done by e1 except the first project,
+in place of which e2 does another project.
+
+Write a program that defines two classes Employee and Main.
+
+Create copy of e1, say it as e2 in such a way that
+changing the values of instance variables of either e2 or e1
+should not affect the other one.
+
+The code takes the name of e2 and new project done by e2 as input.
+
+Complete the program as specified below :
+
+    Class Employee that implements Cloneable interface and has the following members.
+        - Private instance variables String name and
+          String[] projects to store name and projects respectively
+        - Define required constructor
+        - Define accessor methods getName( ) and getProject( )
+        - to get name of employee and project at specific index.
+        - Define mutator methods setName( ) and setProject( )
+          to set name of employee and project at specific index.
+        - Define the method clone( )
+
+    Class Main that has the method main which does the following.
+        - Two objects of Employee e1 and e2 are created.
+          e2 is created using e1.clone()
+
+          Input to update name of e2 and second item
+          bought by e2 are taken
+
+          Names of e1, e2 and first project done by e1
+          and e2 are printed.
